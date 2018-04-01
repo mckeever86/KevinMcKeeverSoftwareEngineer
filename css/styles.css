@@ -10,6 +10,10 @@ body {
 }
 a {
     text-decoration: none;
+    color:initial;
+}
+a:visited {
+    color:initial;
 }
 h1, h2, h3, h4, h5, h6 {
     margin:0;
@@ -50,9 +54,6 @@ aside hr {
 }
 nav a {
     padding:1vmax 0 1vmax 0;
-}
-nav a:visited {
-    color:initial;
 }
 nav a:hover {
     background-color:black;
